@@ -1,0 +1,14 @@
+<view class="container"> 
+  <scroll-view class="category-list" scroll-x="true">
+    <view class="c-item" wx:for="{{ type }}" catchtap="toggle" data-type="{{ index }}">
+      <text>{{ item }}</text>
+    </view>
+  </scroll-view>
+  <view class="g-wrap grid-content">
+    <view class="grid" wx:for="{{ equip }}">
+      <navigator url="../hero_detail/hero_detail?js=ss&id={{ item.item_id }}"></navigator>
+      <image class="grid-item-img" src="{{ item.img }}"></image>  
+      <view class="grid-item-name">{{ item.name }}</view>
+    </view>
+  </view>
+</view> 

@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/herolist/herolist",
+    "pages/hero_detail/hero_detail",
+    "pages/equip/equip",
+    "pages/equip_detail/equip_detail",
+    "pages/ming/ming",
+    "pages/ming_detail/ming_detail",
+    "pages/terminology/terminology",
+    "pages/term_detail/term_detail"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "阴阳师图鉴",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  },
+  "sitemapLocation": "sitemap.json"
+}
