@@ -22,12 +22,12 @@
         </view>
         <view class="grid-item">
           <navigator url=""></navigator>
-          <text>御魂</text>
+          <text>御魂(暂未开放)</text>
           <image src="../../img/role/warrior.png"></image>
         </view>
         <view class="grid-item">
           <navigator url=""></navigator>
-          <text>暂定</text>
+          <text>(暂未开放)</text>
           <image src="../../img/role/assassin.png"></image>
         </view>
       </view>
